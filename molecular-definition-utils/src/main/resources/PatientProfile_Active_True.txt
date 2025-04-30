@@ -1,0 +1,16 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://example.org/fhir/StructureDefinition/OnlyActiveMolecularDefinition",
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MolecularDefinition.active",
+        "path": "MolecularDefinition.active",
+        "fixedBoolean": true
+      }
+    ]
+  }
+}
