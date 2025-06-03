@@ -17,6 +17,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hapi-fhir-version>8.0.0</hapi-fhir-version>
     </properties>
 
     <dependencies>
@@ -24,28 +25,28 @@
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-structures-r5</artifactId>
-            <version>8.0.0</version>
+            <version>${hapi-fhir-version}</version>
         </dependency>
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-base</artifactId>
-            <version>8.0.0</version>
+            <version>${hapi-fhir-version}</version>
         </dependency>
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-validation</artifactId>
-            <version>8.0.0</version>
+            <version>${hapi-fhir-version}</version>
         </dependency>
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-caching-caffeine</artifactId>
-            <version>8.0.0</version>
+            <version>${hapi-fhir-version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-validation-resources-r5 -->
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-validation-resources-r5</artifactId>
-            <version>8.0.0</version>
+            <version>${hapi-fhir-version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
